@@ -68,8 +68,12 @@ h1 {
   left: 50%;
   transform: translate(-50%, 50%);
 }
+.top {
+  display: flex;
+  justify-content: space-around;
+}
 
-.between {
+/* .between {
   font-size: 1.4rem;
   position: absolute;
   top: 2rem;
@@ -80,7 +84,7 @@ h1 {
   position: absolute;
   top: 2rem;
   left: 2rem;
-}
+} */
 
 .guess {
   background: none;
