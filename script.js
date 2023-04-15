@@ -44,8 +44,7 @@ document.querySelector(".check").addEventListener("click", function () {
 document.querySelector(".again").addEventListener("click", function () {
   score = 10;
   secretNumber = Math.trunc(Math.random() * 100) + 1;
-  document.querySelector(".message").textContent =
-    "Shall we begin ?!?!?!?!🪖🪖🪖";
+  document.querySelector(".message").textContent = "Shall we begin ?!?!?!?!";
   document.querySelector(".score").textContent = score;
   document.querySelector(".guess").value = "";
   document.querySelector(".number").textContent = "?";
