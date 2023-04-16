@@ -3,7 +3,6 @@
 let secretNumber = Math.trunc(Math.random() * 100) + 1;
 let score = 10;
 let highscore = 0;
-// document.querySelector(".number").textContent = secretNumber;
 
 document.querySelector(".check").addEventListener("click", function () {
   const guess = Number(document.querySelector(".guess").value);
