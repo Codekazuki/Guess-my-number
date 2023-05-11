@@ -9,7 +9,8 @@ document.querySelector(".check").addEventListener("click", function () {
   if (!guess) {
     document.querySelector(".message").textContent = "You never put anything ";
   } else if (guess === secretNumber) {
-    document.querySelector(".message").textContent = "you don get am";
+    document.querySelector(".message").textContent =
+      "you don get am.....oil dey your head";
     document.querySelector(".number").textContent = secretNumber;
     document.querySelector("body").style.backgroundColor = "green";
     document.querySelector(".number").style.width = "25rem";
@@ -19,7 +20,8 @@ document.querySelector(".check").addEventListener("click", function () {
     }
   } else if (guess > secretNumber) {
     if (score > 1) {
-      document.querySelector(".message").textContent = " too high abeg";
+      document.querySelector(".message").textContent =
+        " Your guess is too high 🎡";
       score--;
       document.querySelector(".score").textContent = score;
     } else {
