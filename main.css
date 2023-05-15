@@ -110,7 +110,8 @@ h1 {
 }
 
 .btn:hover {
-  background-color: #ccc;
+  background-color: #0f0505;
+  color: #eee;
 }
 
 .message {
@@ -120,6 +121,9 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
+}
+.check {
+  font-family: "Lobster", cursive;
 }
 
 @media only screen and (max-width: 600px) {
@@ -153,6 +157,7 @@ h1 {
   .number {
     background: #eee;
     color: #333;
+    font-family: "Lobster";
     font-size: 4rem;
     width: 10rem;
     padding: 3rem 0rem;
